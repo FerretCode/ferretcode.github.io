@@ -28,34 +28,88 @@
       rel="stylesheet"
     />
   </head>
-  <body style="font-family: 'Bebas Neue'; background-color: #313136;
+  <body
+    style="
+      font-family: 'Bebas Neue';
+      background-color: #313136;
       background-image: url('./svgs/blob3.svg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
-      background-position: 50% 0%;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      background-position: 50% 0%;
+    "
+  >
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark"
+      style="font-family: 'Bebas Neue'"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Mushroom Marketplace</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="display-5 text-warning" href="./index.html"
+          ><img
+          src="https://cdn.discordapp.com/emojis/921129819599675453.png?size=160"
+          / class="mx-2" width="50" height="24">Mushroom Marketplace</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="navbar-collapse collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-2">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./buy.html">Buy</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link active text-warning h2"
+                aria-current="page"
+                href="./index.html"
+                >Buy</a
+              >
+            </li>
+
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link active text-warning h2"
+                aria-current="page"
+                href="https://discord.gg/2BCwG3hMq5"
+                >Join the Discord</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
+
     <div class="container-fluid">
       <div class="px-4 pt-4 my-2 text-center">
-        <div class="display-1 bg-warning fw-bold justify-content-sm-center mt-5 mb-4">
+        <div
+          class="display-1 bg-warning fw-bold justify-content-sm-center mt-5 mb-4"
+        >
           Mushroom Marketplace
+        </div>
+      </div>
+
+      <div
+        class="container-fluid row d-flex justify-content-center text-center my-5"
+      >
+        <div class="row d-flex align-content-center">
+          <div class="col display-5 bg-dark mx-5 text-warning rounded">
+            <div class="display-2 mt-3">Wishlist</div>
+            <img
+              class="img-responsive mb-3 rounded"
+              src="./images/Peek 2022-02-11 20-54.gif"
+            />
+          </div>
+          <div class="col display-5 bg-dark mx-5 text-warning rounded">
+            Column
+          </div>
+          <div class="col display-5 bg-dark mx-5 text-warning rounded">
+            Column
+          </div>
         </div>
       </div>
     </div>
